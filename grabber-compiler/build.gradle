@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: "maven"
+
+dependencies {
+  compile project(':grabber-annotations')
+  compile deps.autoservice
+  compile deps.autocommon
+  compile deps.javapoet
+
+  testCompile deps.junit
+  testCompile deps.truth
+  testCompile deps.compiletesting
+  testCompile files(org.gradle.internal.jvm.Jvm.current().getToolsJar())
+}

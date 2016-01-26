@@ -1,0 +1,5 @@
+META-INF/services/javax.annotation.processing.Processor
+br/com/estudio89/factory/processor/internal/FactoryAnnotatedClass.class
+br/com/estudio89/factory/processor/internal/FactoryGroupedClasses.class
+br/com/estudio89/factory/processor/FactoryProcessor.class
+br/com/estudio89/factory/processor/internal/ProcessingException.class
