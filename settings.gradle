@@ -1,0 +1,6 @@
+include ':grabber-annotations'
+include ':grabber-compiler'
+include ':grabber-sample'
+include ':grabber'
+
+rootProject.name = 'grabber-parent'
