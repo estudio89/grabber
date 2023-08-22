@@ -3,8 +3,10 @@ apply plugin: "maven"
 
 dependencies {
   compile project(':grabber-annotations')
-  compile deps.autoservice
-  compile deps.autocommon
+
+  compile fileTree(include: ['auto-service-1.0-rc2.jar'], dir: '../libs')
+  compile fileTree(include: ['guava-18.0.jar'], dir: '../libs')
+  compile fileTree(include: ['auto-common-0.4.jar'], dir: '../libs')
   compile deps.javapoet
 
   testCompile deps.junit
